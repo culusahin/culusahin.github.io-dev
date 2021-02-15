@@ -26,10 +26,9 @@ html {
   text-align: center;
 }
 
-img {
-  display: flex;
+/*img {
   max-width: 100%;
-}
+}*/
 
 .wrapper {
   display: flex;
