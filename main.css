@@ -42,7 +42,7 @@ img {
   margin: var(--wrapper-margin);
 }
 
-.grid-parent {
+.grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(12, auto);
@@ -168,7 +168,7 @@ h1 {
       height: 90vh;
   }
 
-  .grid-parent {
+  .grid {
       height: var(--grid-height);
       grid-template-columns: repeat(8, 1fr);
       grid-template-rows: repeat(6, 1fr);
