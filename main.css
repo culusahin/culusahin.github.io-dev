@@ -142,7 +142,7 @@ html {
 }
 
 h1 {
-  font-size: calc(24px + (48 - 14) * ((100vw - 568px) / (3840 - 568)));
+  font-size: calc(20px + (48 - 14) * ((100vw - 568px) / (3840 - 568)));
   font-family: Grotesque;
   /*margin: 0 5px 0px;*/
 }
