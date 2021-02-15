@@ -32,8 +32,6 @@ img {
 
 .wrapper {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -51,39 +49,34 @@ img {
 }
 
 .cengiz {
-
-  background: orange;
-  grid-column: 1 / 3;
-  grid-row: 1 / 5;
   width: 100%;
   height: 100%;
+  grid-column: 1 / 3;
+  grid-row: 1 / 5;
   object-fit: cover;
 }
 
 .youtube {
   width: 100%;
-  background: black;
+  height: 100%;
   grid-column: 2 / 3;
   grid-row: 5 / 6;
-  height: 100%;
   object-fit: cover;
 }
 
 .fb {
   width: 100%;
-  background: blue;
+  height: 100%;
   grid-column: 1 / 2;
   grid-row: 5 / 6;
-  height: 100%;
   object-fit: cover;
 }
 
 .mixcloud {
   width: 100%;
-  background: red;
+  height: 100%;
   grid-column: 1 / 3;
   grid-row: 6 / 7;
-  height: 100%;
   object-fit: cover;
 }
 
@@ -98,9 +91,9 @@ img {
 
 .album-2 {
   width: 100%;
+  height: 100%;
   grid-column: 2 / 3;
   grid-row: 7 / 9;
-  height: 100%;
   object-fit: cover;
 }
 
@@ -114,27 +107,26 @@ img {
 
 .album-4 {
   width: 100%;
+  height: 100%;
   grid-column: 2 / 3;
   grid-row: 9 / 11;
-  height: 100%;
   object-fit: cover;
 }
 
 .album-5 {
   width: 100%;
+  height: 100%;
   grid-column: 1 / 2;
   grid-row: 11 / 13;
-  height: 100%;
   object-fit: cover;
 }
 
 .album-6 {
   width: 100%;
+  height: 100%;
   grid-column: 2 / 3;
   grid-row: 11 / 13;
-  height: 100%;
   object-fit: cover;
-
 }
 
 .icon {
@@ -210,19 +202,16 @@ h1 {
   }
 
   .youtube {
-      background: black;
       grid-column: 3/5;
       grid-row: 5/6;
   }
 
   .fb {
-      background: blue;
       grid-column: 1/3;
       grid-row: 5/6;
   }
 
   .mixcloud {
-      background: red;
       grid-column: 1 / 5;
       grid-row: 6 / 7;
   }
