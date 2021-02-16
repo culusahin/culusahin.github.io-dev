@@ -7,7 +7,7 @@
   --content-width: 60vw;
   --content-padding: 15px;
   --grid-cell-size: 14.3vw;
-  --grid-cell-padding: 0.5vw;
+  --grid-cell-padding: 2vw;
 }
 
 * {
@@ -98,6 +98,8 @@ h1 {
       "large large . ."
       "large large . ."
       "social social . ."
+
+    grid-gap: 0.5vw;
   }
 
   .social-links * {
