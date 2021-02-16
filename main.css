@@ -108,4 +108,8 @@ h1 {
     width: 100%;
     object-fit: cover;
   }
+
+  .social-links {
+    grid-gap: var(--grid-cell-padding-desktop);
+  }
 }
