@@ -7,8 +7,7 @@
   --content-width: 60vw;
   --content-padding: 15px;
   --grid-cell-size: 14.3vw;
-  --grid-cell-padding: 2vw;
-  --grid-cell-padding-desktop: 0.5vw;
+  --grid-cell-padding: 0.5vw;
 }
 
 * {
@@ -98,18 +97,12 @@ h1 {
     grid-template-areas:
       "large large . ."
       "large large . ."
-      "social social . .";
-      
-    grid-gap: var(--grid-cell-padding-desktop); 
+      "social social . ."
   }
 
   .social-links * {
-    max-height: calc((var(--grid-cell-size) - var(--grid-cell-padding-desktop)) / 2);
+    max-height: calc((var(--grid-cell-size) - var(--grid-cell-padding)) / 2);
     width: 100%;
     object-fit: cover;
-  }
-
-  .social-links {
-    grid-gap: var(--grid-cell-padding-desktop);
   }
 }
