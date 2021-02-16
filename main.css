@@ -97,9 +97,10 @@ h1 {
     grid-template-areas:
       "large large . ."
       "large large . ."
-      "social social . ."
-
+      "social social . .";
+      
     grid-gap: 0.5vw;
+    
   }
 
   .social-links * {
